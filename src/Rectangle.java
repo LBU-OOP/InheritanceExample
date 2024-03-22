@@ -4,15 +4,19 @@ public class Rectangle extends Shape
     public Rectangle()
     {
         super();
-        width = 100;
-        height = 100;
+        width = defaultSize; //note these come from Shape class
+        height = defaultSize;
 
     }
 
     public Rectangle(int xpos, int ypos, int width, int height)
     {
-        this.width = width;
+        this.width = width; //width and height destined for here, xpos/ypos for Shape
         this.height = height;
 
+    }
+    public  String toString()
+    {
+        return "Rectangle width = "+width+" , height = "+height+" "+super.toString();
     }
 }

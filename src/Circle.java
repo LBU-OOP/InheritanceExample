@@ -1,17 +1,17 @@
-public class Circle extends Shape
+public class Circle extends Ellipse
 {
-    protected int radius;
     public Circle()
     {
         super();
-        radius = 100;
-
     }
 
     public Circle(int xpos, int ypos, int radius)
     {
-        super(xpos, ypos);
-        this.radius = radius;
+        super(xpos, ypos, radius, radius);
+    }
 
+    public  String toString()
+    {
+        return "Circle "+super.toString();
     }
 }
