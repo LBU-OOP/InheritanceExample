@@ -10,7 +10,7 @@ public class Circle extends Ellipse
         super(xpos, ypos, radius, radius);
     }
 
-    public  String toString()
+    public String toString()
     {
         return "Circle "+super.toString();
     }

@@ -1,4 +1,3 @@
-import java.awt.*;
 
 public class Shape
 {
@@ -7,7 +6,8 @@ public class Shape
     public final int defaultSize = 100;
 
     protected int xpos, ypos;
-       public Shape()
+
+    public Shape()
     {
         xpos = defaultXpos;
         ypos = defaultYpos;

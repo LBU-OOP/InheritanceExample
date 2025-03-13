@@ -11,6 +11,7 @@ public class Rectangle extends Shape
 
     public Rectangle(int xpos, int ypos, int width, int height)
     {
+        super(xpos, ypos);
         this.width = width; //width and height destined for here, xpos/ypos for Shape
         this.height = height;
 
